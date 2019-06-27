@@ -1,6 +1,9 @@
 # lalaya.github.io
 
-# [A static website](https://laya.github.io/static-website)
-# [Hangman (javascript demo)](https://laya.github.io/hangman)
-# [Trello clonse](https://laya.github.io/trello-clone)
-# [Weather app](https://laya.github.io/weather-app)
+# [Glassigt! - A static website](https://lalaya.github.io/static-website)
+
+# [Hangman - Javascript demo](https://lalaya.github.io/hangman)
+
+# [Trello clone - jQuery ](https://lalaya.github.io/trello-clone)
+
+# [Weather app - React](https://lalaya.github.io/weather-app)
