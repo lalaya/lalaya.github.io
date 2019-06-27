@@ -132,7 +132,7 @@ $(document).ready(function() {
     });
 
     // Datepicker Plugin
-    $('.date-input').dateDropper();
+    //$('.date-input').dateDropper();
 
     // Color Widget
     var colors = ['#ffd3da',
