@@ -127,9 +127,9 @@ $(document).ready(function() {
     });
 
     // Tabs in dialog 
-    $('#cardFormTabs').tabs({
-        event: "mouseover"
-    });
+    // $('#cardFormTabs').tabs({
+    //     event: "mouseover"
+    // });
 
     // Datepicker Plugin
     //$('.date-input').dateDropper();
@@ -153,7 +153,6 @@ $(document).ready(function() {
         colors: colors, 
         targetSelector: ".add-new-card, .add-new-list",
         selectedIndex:1
-
     });
 });
 
