@@ -1,0 +1,146 @@
+body {
+  background-color: #ffd3da;
+  padding: 30px;
+}
+
+h1 {
+  font-family: "Lora", serif;
+  font-size: 5em;
+  color: #ffffff;
+}
+
+.list-header {
+  font-family: 'Abel', sans-serif;
+  font-size: 1.1em;
+  color: #aa8e8ed2;
+  padding: 0.5em;
+  display: inline-block;
+}
+
+.board {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+}
+
+.column {
+  width: 20em;
+  height: 20em;
+}
+
+.list {
+  font-family: 'Abel', sans-serif;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: white;
+  height: auto;
+  background-color: white;
+  box-shadow: 2px 2px rgba(211, 211, 211, 0.2);
+  padding: 15px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.card-container {
+    min-height: 3em;
+    background-color:  rgba(211, 211, 211, 0.2); 
+    margin: 10px auto;
+}
+
+.column:not(:last-child) {
+  margin-right: 35px;
+}
+
+.card,
+.new-card,
+.card-placeholder {
+  margin: 10px auto;
+  width: 100%;
+  height: 3em;
+  background-color: turquoise;
+}
+
+.card-placeholder {
+    background-color: lightpink; 
+}
+
+.content-right {
+  float: right;
+}
+
+.remove-card,
+.remove-list {
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+.remove-list {
+  float: right;
+  margin-top: 2.5em;
+  margin-right: 1.2em;
+  color: #aa8e8ed2;
+}
+
+.add-new-card,
+.add-new-list {
+  height: 3em;
+  background-color: #ffd3da;
+  color: white;
+  border: none;
+  width: 100%;
+}
+
+#tab-card
+#tab-datepicker {
+    list-style: none;
+}
+
+.ui-widget-content,
+.ui-dialog,
+.ui-tabs-nav {
+  background-color: #c3faee;
+  border: none;
+}
+
+.ui-tabs-anchor,
+.ui-tabs-panel {
+  background-color: white;
+  border-color: white;
+  font-family: 'Abel', sans-serif;
+}
+
+.ui-tabs-anchor {
+  background-color: turquoise;
+  color: white;
+  font-size: 1.1em;
+  border: white;
+}
+
+#cardName,
+#cardDescription,
+.dateinput {
+  width: 100%; 
+}
+
+#cardName {
+  display: flex;
+  margin-bottom: 1em; 
+}
+
+#cardDescription {
+  display: flex;
+  height: 50%
+}
+
+.dateinput {
+  font-family: 'Abel', sans-serif;
+  padding: 10px auto;
+}
+
+.card-content {
+  font-size: 0.8em;
+  padding: 1.2em;
+  box-sizing: border-box;
+}
+

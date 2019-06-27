@@ -1,0 +1,43 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="color.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <button id="backgroundColor">Boomshakalakk background!</button>
+    <button id="buttonColor">Boomshakalaak button!</button>   
+</body>
+
+<script>
+    $(document).ready(function() {
+
+        var colors = ['#ffd3da',
+                    'rgb(82, 122, 146)', 
+                    'rgb(95, 52, 77)', 
+                    'rgb(255, 178, 133)', 
+                    'rgb(169, 236, 253)', 
+                    'rgb(53, 138, 117)', 
+                    'lightgrey'];
+
+        $("#mycolor").color({
+            colors: colors, 
+            targetSelector: "body"
+        });
+
+        $("#mycolor2").color({
+            colors: colors, 
+            targetSelector: "button"
+        });
+    });
+    
+</script>
+</html>

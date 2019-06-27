@@ -1,0 +1,83 @@
+<html lang="en">
+
+<head>
+    <base href="/trello-clone/" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Abel|Lora:400,700" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet">
+    <link href="datedropper/datedropper.css" rel="stylesheet" type="text/css" />
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="datedropper/datedropper.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Kanban Board</title>
+</head>
+
+<body>
+    <button id="backgroundColor">Boomshakalakk background!</button>
+    <button id="buttonColor">Boomshakalaak button!</button>
+    
+    <h1>|ˈkänbän|</h1>
+    <div class="board">
+        <div class="column">
+            <div class="list">
+                <h2 class="list-header">The To Do's</h2>
+                <button class="remove-list">X</button>
+                    <div class="card-container"></div>
+                <button class="add-new-card">ADD NEW CARD</button>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="list">
+                <h2 class="list-header">The Doin'</h2>
+                <button class="remove-list">X</button>
+                    <div class="card-container"></div>
+                <button class="add-new-card">ADD NEW CARD</button>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="list">
+                <h2 class="list-header">The Sayonara's</h2>
+                <button class="remove-list">X</button>
+                    <div class="card-container"></div>
+                <button class="add-new-card">ADD NEW CARD</button>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="list">
+                <button class="add-new-list">ADD NEW LIST</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="cardForm" style="display: none">
+        <div id="cardFormTabs">
+            <ul>
+                <li>
+                    <a href="#tab-1">Card Info</a>
+                </li>
+                <li>
+                    <a href="#tab-2">Deadline</a>
+                </li>
+            </ul>
+            <div id="tab-1">
+                <input id="cardName" type="text" placeholder="Card name" />
+                <textarea id="cardDescription" rows="5" placeholder="Description"></textarea>
+            </div>
+            <div id="tab-2">
+                <input id="dueDate" data-format="Y-m-d" type="text" class="date-input" />
+            </div>
+        </div>
+</body>
+<script src="widget/color.js"></script>
+<script src="app.js"></script>
+</html>
