@@ -1,0 +1,246 @@
+
+
+body {
+    margin:0;
+    font-family: Fira Sans, sans-serif;
+    background-image: -webkit-gradient(linear, left top, left bottom, from (white), to (#FCEDED));
+    background-image: -webkit-linear-gradient(top, white, #FCEDED);
+    background-image: -moz-linear-gradient(top, white,#FCEDED);
+    background-image: -o-linear-gradient(top, white, #FCEDED);  
+    background-image: linear-gradient(top, white, #FCEDED);
+}
+
+
+.logo {
+    margin: 50px 0 0 100px;   
+    float:left;
+}
+
+
+/* menu specifications */
+
+.menu {
+    float:right;
+    margin: 100px 50px 0 0;
+}
+
+.menu ul {
+    padding:0;
+    margin:0;
+}
+
+.menu li {
+    list-style: none;
+    margin:0;  
+    display: inline-block;
+}
+
+.menu a {
+    color: white; 
+    font-size: 20px;
+    font-weight: 500; 
+    text-decoration: none;
+}
+
+.menu li:not(:last-child) {
+    margin-right: 1em; 
+} 
+
+.menu a:hover {
+    color: lightseagreen; 
+}
+
+
+section, address {
+    padding: 50px 100px 50px 100px;
+}
+
+
+/* Typeface specifications */
+
+h1, h2, h3 {
+    color: #F3BCB4; 
+}
+
+
+h1  {
+    font-size: 32px;
+}
+
+
+h2 {
+    font-size: 28px;
+    font-weight: 400; 
+}
+
+
+h3 {
+    font-size: 18px; 
+    font-weight: 300; 
+    text-transform: uppercase; 
+}
+
+
+h5, h6 {
+    color: white; 
+    text-align: center; 
+    font-size: 18px;
+    font-weight: 300;
+}
+
+p, ul, .Oppettider, address {
+    color: lightslategray; 
+}
+a, p {
+    font-weight: 400; 
+    font-size: 16px; 
+    word-spacing: 0.1em; 
+}
+
+a {
+    color: lightseagreen;
+}
+
+ul {
+    font-weight: lighter; 
+}
+
+
+address {
+    font-style: normal;
+}
+
+
+
+/* General parallax class */
+
+.parallax {
+    height: 300px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+/* Specific classes for images properties */
+
+.ice-cream-1 {
+    background-image: url("../images/Glassigt-2.jpg"); 
+    height: 500px;   
+}
+
+.ice-cream-2 {
+    background-image: url("../images/Glassigt-5.jpg"); 
+}
+
+.ice-cream-3 {
+    background-image: url("../images/Glassigt-6.jpg"); 
+}
+
+.ice-cream-4 {
+    background-image: url("../images/Glassigt-13.jpg"); 
+}
+    
+.ice-cream-5 {
+    background-image: url("../images/Glassigt-10.jpg"); 
+}
+
+
+.video iframe {
+    margin: 50px auto; 
+    display: block; 
+    border: none;
+   
+}
+
+
+/* footer */
+footer {
+    background: #FFDDD8; 
+    margin-top: 20px;
+    padding: 20px 0px 20px 0px; 
+    text-align: center;
+    color: white;
+}
+
+@media only screen and (max-width: 900px) {
+    .logo {
+        margin: 50px 0;
+        width: 100%;
+    }
+
+    .logo img {
+        margin: 0 auto 0 auto;
+        display: block;
+    }
+    
+    .menu {
+        margin: 0;
+        width: 100%;
+        display: flex; 
+        justify-content: space-around; 
+    }
+    
+    .menu li {
+        list-style: none;
+        margin:0;  
+       display:block;
+    }
+    
+    .menu li:not(:last-child) {
+        margin-right: 1em; 
+    } 
+
+    section, address {
+        padding: 0 35px;
+        
+    }
+
+    .video iframe {
+        max-width: 100%;
+    }
+    
+}
+
+
+@media only screen and (max-width: 900px) {
+    .logo {
+        margin: 50px 0;
+        width: 100%;
+    }
+
+    .logo img {
+        margin: 0 auto 0 auto;
+        display: block;
+    }
+    
+    .menu {
+        margin: 0;
+        width: 100%;
+        display: flex; 
+        justify-content: space-around; 
+    }
+    
+    .menu li {
+        list-style: none;
+        margin:0;  
+       display:block;
+    }
+    
+    .menu li:not(:last-child) {
+        margin-right: 1em; 
+    } 
+
+    section, address {
+        padding: 0 35px;
+        
+    }
+
+    .video iframe {
+        max-width: 100%;
+    }
+
+    .parallax {
+        background-attachment: scroll;
+    }
+}
