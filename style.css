@@ -45,6 +45,10 @@ p {
   margin-bottom: 2rem;
 }
 
+.about {
+  line-height: 1.6rem;
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -176,5 +180,10 @@ a {
 
   h3 {
     padding-bottom: 1rem;
+  }
+
+  .about {
+    font-size: 0.8rem;
+    line-height: 1.4rem;
   }
 }
