@@ -3,15 +3,131 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
     <title>Laya's portfolio</title>
   </head>
+
   <body>
-    <h1>Hi! I'm Laya.</h1>
-    <ul>
-      <li><a href="static-website/index.html">A static website</a></li>
-      <li><a href="hangman/index.html">Hangman</a></li>
-      <li><a href="trello-clone/index.html">Trello clone</a></li>
-      <li><a href="weather-app/index.html">Weather api demo</a></li>
-    </ul>
+    <section class="intro">
+      <header>
+        <p class="logo">Laya</p>
+        <nav role="navigation">
+          <a href="#selected-work">Selected work.</a>
+          <a href="#contact">Contact.</a>
+        </nav>
+      </header>
+      <div class="section-wrapper">
+        <h1>Welcome!</h1>
+        <p class="about">
+          I'm Laya, a happy multidisciplinary creative soul with a strong
+          interest in concept-based design. I've many passions and love to
+          learn, hence I have just taken the next step to also understand the
+          technical side of the digital user experience, and it's super
+          exciting! I get my inspiration from the interaction between different
+          people, cultures and the nature, which I also find my appreciation for
+          all the little things of life.
+        </p>
+      </div>
+    </section>
+
+    <section id="selected-work">
+      <div class="section-wrapper">
+        <h3>Design / UX</h3>
+        <p class="skills">
+          My design skills are: Adobe XD, Invision, Zeplin, Illustrator,
+          InDesign, Lightroom, Photoshop
+        </p>
+
+        <ul class="work-cards">
+          <li class="work-card">
+            <a href="https://invis.io/UXSR2WICBNM" target="_blank"
+              >Shop for nouchii</a
+            >
+          </li>
+          <li class="work-card">
+            <a href="https://invis.io/B2SR2G5JHM8" target="_blank"
+              >Imdb Clone Admin Flow</a
+            >
+          </li>
+          <li class="work-card">
+            <a
+              href="https://invis.io/VNSRIW0TMXK#/371509423_Home"
+              target="_blank"
+              >LAKAIT Website</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="section-wrapper">
+        <h3>Code</h3>
+        <p class="skills">
+          I've been working with HTML, CSS, LESS, JavaScript, React, Gatsby,
+          Contentful, Aurelia, GraphQL, Github, Azure Devops
+        </p>
+        <ul>
+          <li class="work-card">
+            <a
+              href="https://github.com/lalaya/02-static-website-lalaya"
+              target="_blank"
+              ><img class="github" src="/img/github.png"</a
+            >
+            <a href="static-website/index.html" target="_blank"
+              >Glassigt! in HTML &amp; CSS</a
+            >
+          </li>
+          <li class="work-card">
+            <a
+              href="https://github.com/lalaya/04-hangman-lalaya"
+              target="_blank"
+              ><img class="github" src="/img/github.png"</a
+            >
+            <a href="hangman/index.html" target="_blank"
+              >Hangman with JavaScript</a
+            >
+          </li>
+          <li class="work-card">
+            <a
+              href="https://github.com/lalaya/07-trello-clone-lalaya"
+              target="_blank"
+              ><img class="github" src="/img/github.png"</a
+            >
+            <a href="trello-clone/index.html" target="_blank"
+              >Trello Clone with jQuery</a
+            >
+          </li>
+          <li class="work-card">
+            <a
+              href="https://github.com/lalaya/11-weather-app-lalaya"
+              target="_blank"
+              ><img class="github" src="/img/github.png"</a
+            >
+            <a href="weather-app/index.html" target="_blank"
+              >Weather App with React</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="section-wrapper">
+        <h3>Curious? Let's talk.</h3>
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/laya-sadegh/">Linkedin</a>
+          </li>
+          <li>
+            <a href="https://github.com/lalaya" target="_blank">Github</a>
+          </li>
+        </ul>
+      </div>
+    </section>
   </body>
 </html>
